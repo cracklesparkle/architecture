@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Архитектурное наследие</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="fonts/blenderpro/stylesheet.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="blog-header lh-1 py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-1 pt-1">
+          <a class="link-secondary" href="#">
+            <img src="img/logo.png" alt="" height="50">
+          </a>
+        </div>
+        <div class="col-4 text-center">
+          <a class="blog-header-logo text-dark" href="#" onclick='loadHtml("template", "html/main.html")'>Архитектурное
+            наследие</a>
+        </div>
+        <div class="col-1 d-flex justify-content-end align-items-center">
+          <a class="link-secondary" href="#" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+              viewBox="0 0 24 24">
+              <title>Поиск</title>
+              <circle cx="10.5" cy="10.5" r="7.5" />
+              <path d="M21 21l-5.2-5.2" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="nav-scroller py-1 mb-2">
+      <nav class="nav d-flex justify-content-between">
+        <a class="p-2 link-secondary" href="history.html">История</a>
+        <a class="p-2 link-secondary" href="architects.html">Архитекторы</a>
+        <a class="p-2 link-secondary" href="literature.html">Литература</a>
+      </nav>
+    </div>
+  </div>
+
+  <main id='template' class="container">
+    <div class="row g-5">
+        <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                История советской архитектуры
+            </h3>
+    
+            <article class="blog-post" id="theme">
+                <p>Советская архитектура — архитектура советского государства, охватывающая период 1917—1991 годов. 
+                    За это время в ней отразился ряд мировых архитектурных стилей — конструктивизм, рационализм, ар-деко; 
+                    некоторые отдельные стили являются смесью ар-деко, ампира, эклектики и оригинальных архитектурных направлений, вроде сталинской архитектуры и конструктивизма.
+                </p>
+            </article>
+    
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-theme01" role="tabpanel"
+                    aria-labelledby="v-pills-theme01-tab"></div>
+                <div class="tab-pane fade" id="v-pills-theme02" role="tabpanel" aria-labelledby="v-pills-theme02-tab">...
+                </div>
+                <div class="tab-pane fade" id="v-pills-theme03" role="tabpanel" aria-labelledby="v-pills-theme03-tab">...
+                </div>
+                <div class="tab-pane fade" id="v-pills-theme04" role="tabpanel" aria-labelledby="v-pills-theme04-tab">...
+                </div>
+                <div class="tab-pane fade" id="v-pills-theme05" role="tabpanel" aria-labelledby="v-pills-theme05-tab">...
+                </div>
+                <div class="tab-pane fade" id="v-pills-theme06" role="tabpanel" aria-labelledby="v-pills-theme06-tab">...
+                </div>
+            </div>
+    
+            <!-- <nav class="blog-pagination" aria-label="Pagination">
+                <a class="btn btn-outline-primary" href="#">Предыдущий</a>
+                <a class="btn btn-outline-secondary disabled">Следующий</a>
+            </nav> -->
+    
+        </div>
+    
+        <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem;">
+                <div class="p-4">
+                    <h4 class="fst-italic">Разделы</h4>
+                    <ol class="list-group mb-0">
+                        <li id="list-item-01" class="list-group-item"><a href="#" class="link-secondary"
+                                onclick='loadHtml("theme", "html/history/theme01.html")'
+                                id="theme01">Архитектура периода Революции и Гражданской войны</a></li>
+                        <li id="list-item-02" class="list-group-item"><a href="#" class="link-secondary"
+                                onclick='loadHtml("theme", "html/history/theme02.html")'
+                                id="theme02">Архитектура 1920-х — сер.1930-х годов</a></li>
+                        <li id="list-item-03" class="list-group-item"><a href="#" class="link-secondary"
+                                onclick='loadHtml("theme", "html/history/theme03.html")'
+                                id="theme03">Архитектура 1930-х</a></li>
+                        <li id="list-item-04" class="list-group-item"><a href="#" class="link-secondary"
+                                onclick='loadHtml("theme", "html/history/theme04.html")' id="theme04">Во
+                                время Великой Отечественной войны</a></li>
+                        <li id="list-item-05" class="list-group-item"><a href="#" class="link-secondary"
+                                onclick='loadHtml("theme", "html/history/theme05.html")'
+                                id="theme05">Сталинская архитектура (1945—1960 года)</a></li>
+                        <li id="list-item-06" class="list-group-item"><a href="#" class="link-secondary"
+                                onclick='loadHtml("theme", "html/history/theme06.html")'
+                                id="theme06">Архитектура 1960—1980-х годов</a></li>
+                    </ol>
+    
+                </div>
+    
+                <div class="p-4">
+                    <h4 class="fst-italic">Другие сайты:</h4>
+                    <ol class="list-unstyled">
+                      <li><a href="#">GitHub</a></li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Facebook</a></li>
+                    </ol>
+                  </div>
+            </div>
+        </div>
+    </div>
+  </main>
+  <footer class="blog-footer">
+    <p>Сайт разработан в рамках обучения по курсу "Мировые информационные ресурсы"
+      <br>Попов Спиридон ПИ-20
+      <br>2023
+    </p>
+    <p>
+      <a href="#">Вверх</a>
+    </p>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
