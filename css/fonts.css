@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Pobeda-Regular;
+    src: url(../fonts/pobeda/Pobeda-Regular.woff);
+  }
+
+  @font-face {
+    font-family: Pobeda-Bold;
+    src: url(../fonts/pobeda/Pobeda-Bold.woff);
+  }
